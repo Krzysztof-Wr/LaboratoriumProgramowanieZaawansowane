@@ -1,0 +1,11 @@
+C:\Studia\ProgramowanieZaawansowane_Projekt\ProgramowanieZaawansowane_Projekt\QuizCore\bin\Debug\net8.0\QuizCore.deps.json
+C:\Studia\ProgramowanieZaawansowane_Projekt\ProgramowanieZaawansowane_Projekt\QuizCore\bin\Debug\net8.0\QuizCore.dll
+C:\Studia\ProgramowanieZaawansowane_Projekt\ProgramowanieZaawansowane_Projekt\QuizCore\bin\Debug\net8.0\QuizCore.pdb
+C:\Studia\ProgramowanieZaawansowane_Projekt\ProgramowanieZaawansowane_Projekt\QuizCore\obj\Debug\net8.0\QuizCore.GeneratedMSBuildEditorConfig.editorconfig
+C:\Studia\ProgramowanieZaawansowane_Projekt\ProgramowanieZaawansowane_Projekt\QuizCore\obj\Debug\net8.0\QuizCore.AssemblyInfoInputs.cache
+C:\Studia\ProgramowanieZaawansowane_Projekt\ProgramowanieZaawansowane_Projekt\QuizCore\obj\Debug\net8.0\QuizCore.AssemblyInfo.cs
+C:\Studia\ProgramowanieZaawansowane_Projekt\ProgramowanieZaawansowane_Projekt\QuizCore\obj\Debug\net8.0\QuizCore.csproj.CoreCompileInputs.cache
+C:\Studia\ProgramowanieZaawansowane_Projekt\ProgramowanieZaawansowane_Projekt\QuizCore\obj\Debug\net8.0\QuizCore.dll
+C:\Studia\ProgramowanieZaawansowane_Projekt\ProgramowanieZaawansowane_Projekt\QuizCore\obj\Debug\net8.0\refint\QuizCore.dll
+C:\Studia\ProgramowanieZaawansowane_Projekt\ProgramowanieZaawansowane_Projekt\QuizCore\obj\Debug\net8.0\QuizCore.pdb
+C:\Studia\ProgramowanieZaawansowane_Projekt\ProgramowanieZaawansowane_Projekt\QuizCore\obj\Debug\net8.0\ref\QuizCore.dll

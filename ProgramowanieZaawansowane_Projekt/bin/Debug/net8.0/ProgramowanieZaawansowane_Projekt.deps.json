@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "ProgramowanieZaawansowane_Projekt/1.0.0": {
+        "dependencies": {
+          "QuizCore": "1.0.0"
+        },
+        "runtime": {
+          "ProgramowanieZaawansowane_Projekt.dll": {}
+        }
+      },
+      "QuizCore/1.0.0": {
+        "runtime": {
+          "QuizCore.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "ProgramowanieZaawansowane_Projekt/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "QuizCore/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

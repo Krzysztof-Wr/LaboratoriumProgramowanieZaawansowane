@@ -19,22 +19,48 @@ namespace ProgramowanieZaawansowane_Projekt
 
             quiz.AddQuestion(q_pier);
 
+            List<int> odpUzytkownika = new List<int>();
+
+            Console.WriteLine($"Quiz: {quiz.Title}");
+            Console.WriteLine(quiz.Description);
+            Console.WriteLine();
+
+            //      --- Przechodzimy po wszystkich pytaniach w quizie ---
             foreach (var question in quiz.Questions)
             {
                 Console.WriteLine(question.Text);
 
-                for (int i = 0; i < question.Answers.Count; i++)
+                for (int i = 0; i < question.Answers.Count; i++) 
                 {
-                    Console.WriteLine($"{i}: {question.Answers[i].Text}");
+                    Console.WriteLine($"{i}: { question.Answers[i].Text}");
                 }
+
+
+                int wybranyIndex;
+
+                while (true)
+                {
+                    Console.WriteLine("Wybierz numer odpowiedzi: ");
+                    string? input = Console.ReadLine();
+
+                    if(int.TryParse(input, out wybranyIndex) && wybranyIndex >= 0 && wybranyIndex < question.Answers.Count)
+                    {
+                        break;
+                    }
+
+                    Console.WriteLine("Nieprawidłowy numer odpowiedzi, spróbuj jeszcze raz.");
+                }
+
+                odpUzytkownika.Add(wybranyIndex);
+                Console.WriteLine();
+
             }
 
-            // 2. Zasymulowane odpowiedzi użytkownika (wybrał odpowiedź 2 -> "4")
-            List<int> userAnswers = new List<int> { 2 };
+            int wynik = quiz.CalculateScore(odpUzytkownika);
 
-            // 3. Obliczamy wynik
-            int score = quiz.CalculateScore(userAnswers);
-            Console.WriteLine($"\nTwój wynik: {score}/{quiz.GetTotalQuestions()}");
+            Console.WriteLine($"Twój wynik: {wynik}/{quiz.GetTotalQuestions()}");
+            Console.WriteLine("Naciśnij dowolny klawisz, aby zakończyć.");
+            Console.ReadKey();
 
         }
     }

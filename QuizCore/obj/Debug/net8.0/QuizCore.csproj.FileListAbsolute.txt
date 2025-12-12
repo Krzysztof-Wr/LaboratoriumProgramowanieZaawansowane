@@ -9,3 +9,4 @@ C:\Studia\ProgramowanieZaawansowane_Projekt\ProgramowanieZaawansowane_Projekt\Qu
 C:\Studia\ProgramowanieZaawansowane_Projekt\ProgramowanieZaawansowane_Projekt\QuizCore\obj\Debug\net8.0\refint\QuizCore.dll
 C:\Studia\ProgramowanieZaawansowane_Projekt\ProgramowanieZaawansowane_Projekt\QuizCore\obj\Debug\net8.0\QuizCore.pdb
 C:\Studia\ProgramowanieZaawansowane_Projekt\ProgramowanieZaawansowane_Projekt\QuizCore\obj\Debug\net8.0\ref\QuizCore.dll
+C:\Studia\ProgramowanieZaawansowane_Projekt\ProgramowanieZaawansowane_Projekt\QuizCore\obj\Debug\net8.0\QuizCore.sourcelink.json

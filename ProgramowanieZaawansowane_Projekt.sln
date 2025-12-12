@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProgramowanieZaawansowane_P
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuizCore", "QuizCore\QuizCore.csproj", "{3F74ABBC-42A9-4DE9-A004-E12684168325}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuizWpf", "QuizWpf\QuizWpf.csproj", "{F15631F1-D5BA-43CB-8A40-2516302976EB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{3F74ABBC-42A9-4DE9-A004-E12684168325}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3F74ABBC-42A9-4DE9-A004-E12684168325}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3F74ABBC-42A9-4DE9-A004-E12684168325}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F15631F1-D5BA-43CB-8A40-2516302976EB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F15631F1-D5BA-43CB-8A40-2516302976EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F15631F1-D5BA-43CB-8A40-2516302976EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F15631F1-D5BA-43CB-8A40-2516302976EB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

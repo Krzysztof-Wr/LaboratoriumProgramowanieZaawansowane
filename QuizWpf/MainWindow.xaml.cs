@@ -19,9 +19,11 @@ namespace QuizWpf
     public partial class MainWindow : Window
     {
         private ObservableCollection<Quiz> _quizzes = new ObservableCollection<Quiz>();
+
         public MainWindow()
         {
             InitializeComponent();
+
             QuizListBox.ItemsSource = _quizzes;
             QuizListBox.DisplayMemberPath = "Title";
         }

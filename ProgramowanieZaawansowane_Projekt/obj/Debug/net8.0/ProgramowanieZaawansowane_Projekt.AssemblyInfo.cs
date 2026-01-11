@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ProgramowanieZaawansowane_Projekt")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e79656d7f64d1c6334e9a4a12961e371d868f3a6")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5e95385578cf912f26cc7f173c9d74858b847368")]
 [assembly: System.Reflection.AssemblyProductAttribute("ProgramowanieZaawansowane_Projekt")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ProgramowanieZaawansowane_Projekt")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

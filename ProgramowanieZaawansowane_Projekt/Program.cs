@@ -1,4 +1,6 @@
-﻿using QuizCore;
+﻿using System;
+using System.Collections.Generic;
+using QuizCore;
 
 namespace ProgramowanieZaawansowane_Projekt
 {
@@ -57,6 +59,15 @@ namespace ProgramowanieZaawansowane_Projekt
             }
 
             int wynik = quiz.CalculateScore(odpUzytkownika);
+
+            var repo = new QuizRepository<IQuiz>();
+            repo.AddQuiz(quiz);
+
+            Console.WriteLine("Repo ma quizów: " + repo.GetAll().Count);
+
+            var znaleziony = repo.FindByTitle("Test");
+            Console.WriteLine(znaleziony != null ? "Znaleziono quiz: " + znaleziony.Title : "Nie znaleziono quizu");
+
 
             Console.WriteLine($"Twój wynik: {wynik}/{quiz.GetTotalQuestions()}");
             Console.WriteLine("Naciśnij dowolny klawisz, aby zakończyć.");

@@ -16,9 +16,10 @@ namespace QuizData.Db
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            // Plik bazy danych będzie obok pliku .exe (w praktyce: w folderze uruchomieniowym)
-            optionsBuilder.UseSqlite("Data Source=quiz.db");
+            var dbPath = System.IO.Path.Combine(AppContext.BaseDirectory, "quiz.db");
+            optionsBuilder.UseSqlite($"Data Source={dbPath}");
         }
+
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {

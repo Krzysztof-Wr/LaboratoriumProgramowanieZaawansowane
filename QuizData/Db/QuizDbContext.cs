@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -16,9 +17,21 @@ namespace QuizData.Db
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            var dbPath = System.IO.Path.Combine(AppContext.BaseDirectory, "quiz.db");
+            // Szukamy folderu rozwiązania: idziemy w górę od bin/... do katalogu z .sln
+            var baseDir = AppContext.BaseDirectory;
+            var dir = new DirectoryInfo(baseDir);
+
+            while (dir != null && !dir.GetFiles("*.sln").Any())
+                dir = dir.Parent;
+
+            if (dir == null)
+                throw new Exception("Nie znaleziono pliku .sln - nie mogę ustalić ścieżki do bazy.");
+
+            var dbPath = Path.Combine(dir.FullName, "quiz.db");
             optionsBuilder.UseSqlite($"Data Source={dbPath}");
+
         }
+
 
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)

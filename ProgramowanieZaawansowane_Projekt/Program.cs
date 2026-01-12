@@ -153,8 +153,8 @@ namespace ProgramowanieZaawansowane_Projekt
 
 
             // DELETE (testujemy raz, żeby CRUD był pełny)
-            bool deleted = await crud.DeleteQuizAsync(newId);
-            Console.WriteLine(deleted ? "Usunięto quiz (DELETE OK)." : "Nie udało się usunąć quizu.");
+            //bool deleted = await crud.DeleteQuizAsync(newId);
+            //Console.WriteLine(deleted ? "Usunięto quiz (DELETE OK)." : "Nie udało się usunąć quizu.");
 
             Console.WriteLine();
         }

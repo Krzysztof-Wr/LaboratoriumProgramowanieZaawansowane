@@ -1,0 +1,35 @@
+﻿@using QuizData.Entities
+@using Microsoft.EntityFrameworkCore
+@inject QuizData.Db.QuizDbContext Db
+
+<h2>Lista quizów (Blazor)</h2>
+
+@if (quizzes == null)
+{
+    <p>Ładowanie...</p>
+}
+else if (quizzes.Count == 0)
+{
+    <p>Brak quizów w bazie.</p>
+}
+else
+{
+    <ul>
+        @foreach (var quiz in quizzes)
+        {
+            <li>
+                (@quiz.Id)
+                <a href="/Quizzes/Take?id=@quiz.Id">@quiz.Title</a>
+            </li>
+        }
+    </ul>
+}
+
+@code {
+    private List<QuizEntity>? quizzes;
+
+    protected override async Task OnInitializedAsync()
+    {
+        quizzes = await Db.Quizzes.ToListAsync();
+    }
+}

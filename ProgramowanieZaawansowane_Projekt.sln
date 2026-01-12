@@ -11,6 +11,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuizWpf", "QuizWpf\QuizWpf.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuizData", "QuizData\QuizData.csproj", "{2DE43607-F086-4424-A270-0C6FA4C15EB1}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuizWeb.Server", "QuizWeb\QuizWeb.Server\QuizWeb.Server.csproj", "{4023028E-7EA9-45EE-946E-F2453FA2CF37}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuizWeb", "QuizWeb\QuizWeb.csproj", "{0F5F5BC4-801A-439B-A71C-234A0C22B6A4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +37,14 @@ Global
 		{2DE43607-F086-4424-A270-0C6FA4C15EB1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2DE43607-F086-4424-A270-0C6FA4C15EB1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2DE43607-F086-4424-A270-0C6FA4C15EB1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4023028E-7EA9-45EE-946E-F2453FA2CF37}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4023028E-7EA9-45EE-946E-F2453FA2CF37}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4023028E-7EA9-45EE-946E-F2453FA2CF37}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4023028E-7EA9-45EE-946E-F2453FA2CF37}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0F5F5BC4-801A-439B-A71C-234A0C22B6A4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0F5F5BC4-801A-439B-A71C-234A0C22B6A4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0F5F5BC4-801A-439B-A71C-234A0C22B6A4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0F5F5BC4-801A-439B-A71C-234A0C22B6A4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

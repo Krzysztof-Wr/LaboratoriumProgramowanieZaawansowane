@@ -1,0 +1,42 @@
+﻿@page
+@model QuizWeb.Pages.Quizzes.TakeModel
+
+@if (Model.Quiz == null)
+{
+    <p>Nie znaleziono quizu.</p>
+}
+else
+{
+    <h1>@Model.Quiz.Title</h1>
+    <p>@Model.Quiz.Description</p>
+
+    <form method="post">
+        @foreach (var q in Model.Quiz.Questions)
+        {
+            <div style="margin-bottom:20px; padding:10px; border:1px solid #ccc;">
+                <h4>@q.Text</h4>
+
+                @foreach (var a in q.Answers)
+                {
+                    <div>
+                        <label>
+                            <input type="radio"
+                                   name="SelectedAnswerByQuestionId[@q.Id]"
+                                   value="@a.Id" />
+                            @a.Text
+                        </label>
+                    </div>
+                }
+            </div>
+        }
+
+        <button type="submit">Sprawdź wynik</button>
+    </form>
+
+    @if (Model.Score != null)
+    {
+        <h3>Wynik: @Model.Score / @Model.TotalQuestions</h3>
+    }
+
+    <p><a href="/Quizzes">Wróć do listy</a></p>
+}

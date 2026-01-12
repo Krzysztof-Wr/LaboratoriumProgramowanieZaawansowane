@@ -87,6 +87,46 @@ namespace QuizData.Services
                 .OrderByDescending(q => q.Questions.Count)
                 .ToListAsync();
         }
+        public async Task<List<QuestionEntity>> GetQuestionsForQuizAsync(int quizId)
+        {
+            using var db = new QuizDbContext();
+            return await db.Questions
+                .Where(q => q.QuizId == quizId)
+                .Include(q => q.Answers)
+                .ToListAsync();
+        }
+
+        public async Task<int> AddQuestionAsync(int quizId, string text)
+        {
+            using var db = new QuizDbContext();
+
+            var question = new QuestionEntity
+            {
+                QuizId = quizId,
+                Text = text
+            };
+
+            db.Questions.Add(question);
+            await db.SaveChangesAsync();
+            return question.Id;
+        }
+
+        public async Task<int> AddAnswerAsync(int questionId, string text, bool isCorrect)
+        {
+            using var db = new QuizDbContext();
+
+            var answer = new AnswerEntity
+            {
+                QuestionId = questionId,
+                Text = text,
+                IsCorrect = isCorrect
+            };
+
+            db.Answers.Add(answer);
+            await db.SaveChangesAsync();
+            return answer.Id;
+        }
 
     }
+
 }

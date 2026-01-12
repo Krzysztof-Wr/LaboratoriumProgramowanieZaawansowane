@@ -10,6 +10,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\QuizCore\QuizCore.csproj" />
+    <ProjectReference Include="..\QuizData\QuizData.csproj" />
   </ItemGroup>
 
 </Project>

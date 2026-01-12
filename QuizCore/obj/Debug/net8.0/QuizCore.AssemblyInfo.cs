@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("QuizCore")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5e95385578cf912f26cc7f173c9d74858b847368")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6c7e3b291cb9ee19810baf09a075954ea8f4edd2")]
 [assembly: System.Reflection.AssemblyProductAttribute("QuizCore")]
 [assembly: System.Reflection.AssemblyTitleAttribute("QuizCore")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

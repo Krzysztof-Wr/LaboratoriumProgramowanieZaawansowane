@@ -1,0 +1,10 @@
+{
+  "version": "0.2.1",
+  "tasks": [
+    {
+      "taskLabel": "zadanie-Class1",
+      "appliesTo": "QuizData/Class1.cs",
+      "type": "launch"
+    }
+  ]
+}

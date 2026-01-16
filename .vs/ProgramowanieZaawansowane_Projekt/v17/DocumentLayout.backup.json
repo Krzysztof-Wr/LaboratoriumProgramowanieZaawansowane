@@ -1,0 +1,54 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Studia\\ProgramowanieZaawansowane_Projekt\\ProgramowanieZaawansowane_Projekt\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{3F74ABBC-42A9-4DE9-A004-E12684168325}|QuizCore\\QuizCore.csproj|c:\\studia\\programowaniezaawansowane_projekt\\programowaniezaawansowane_projekt\\quizcore\\core.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3F74ABBC-42A9-4DE9-A004-E12684168325}|QuizCore\\QuizCore.csproj|solutionrelative:quizcore\\core.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C8373BBC-0ED6-435E-A6FD-F197F368AC6F}|ProgramowanieZaawansowane_Projekt\\ProgramowanieZaawansowane_Projekt.csproj|c:\\studia\\programowaniezaawansowane_projekt\\programowaniezaawansowane_projekt\\programowaniezaawansowane_projekt\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C8373BBC-0ED6-435E-A6FD-F197F368AC6F}|ProgramowanieZaawansowane_Projekt\\ProgramowanieZaawansowane_Projekt.csproj|solutionrelative:programowaniezaawansowane_projekt\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Core.cs",
+              "DocumentMoniker": "C:\\Studia\\ProgramowanieZaawansowane_Projekt\\ProgramowanieZaawansowane_Projekt\\QuizCore\\Core.cs",
+              "RelativeDocumentMoniker": "QuizCore\\Core.cs",
+              "ToolTip": "C:\\Studia\\ProgramowanieZaawansowane_Projekt\\ProgramowanieZaawansowane_Projekt\\QuizCore\\Core.cs",
+              "RelativeToolTip": "QuizCore\\Core.cs",
+              "ViewState": "AgIAAGQAAAAAAAAAAAAmwHUAAABCAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-12T15:23:40.596Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Studia\\ProgramowanieZaawansowane_Projekt\\ProgramowanieZaawansowane_Projekt\\ProgramowanieZaawansowane_Projekt\\Program.cs",
+              "RelativeDocumentMoniker": "ProgramowanieZaawansowane_Projekt\\Program.cs",
+              "ToolTip": "C:\\Studia\\ProgramowanieZaawansowane_Projekt\\ProgramowanieZaawansowane_Projekt\\ProgramowanieZaawansowane_Projekt\\Program.cs",
+              "RelativeToolTip": "ProgramowanieZaawansowane_Projekt\\Program.cs",
+              "ViewState": "AgIAAHYAAAAAAAAAAAAkwKIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-12T15:22:54.678Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
